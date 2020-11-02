@@ -1,0 +1,2 @@
+SELECT * FROM TblPersone INNER JOIN TblTitoliStudio ON TblPersone.id_persona = TblTitoliStudio.id_persona;
+SELECT * FROM TblPersone, TblTitoliStudio WHERE TblPersone.id_persona = TblTitoliStudio.id_persona;

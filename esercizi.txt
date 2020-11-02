@@ -1,0 +1,52 @@
+1 - Creare una pagina html con bootstrap
+	dove ci siano 3 box grandi uguali uno a fianco all'altro, senza spazio fra uno e l'altro che occupino insieme l'intera larghezza delo schermo.
+	primo box: sfondo verde
+	secondo box: sfondo grigio
+	terzo box: sfondo rosso
+	
+	Stringendo la pagina, raggiunta la larghezza schermo dei dispositivi mobile, i box vanno uno sotto l'altro, con uno spazio bianco fra uno e l'altro.
+	
+2 - Partendo dalla pagina creata, cliccando sull'ultimo box (quello rosso), i colori di sfondo dei box diventano:
+	primo box: sfondo rosso
+	secondo box: sfondo giallo
+	terzo box: sfondo blu
+	
+	Ricliccando il terzo box, i colori tornano come in precedenza:
+	primo box: sfondo verde
+	secondo box: sfondo grigio
+	terzo box: sfondo rosso
+	
+	
+3 - Cliccando il primo box a sinistra, sotto ai tre box, compare un quarto box con sfondo nero e scritta bianca, alto minimo 400px, largo tutto lo schermo, con scritto "ciao" al centro (il "ciao" centrato sia in altezza che in larghezza)
+
+	Ricliccando il primo box, il box nero sparisce di nuovo.
+	
+	(non mi interessa cosa succede al box nero al mobile)
+	
+
+4 - Slegato dagli esercizi precedenti.
+	Creare una pagina php dove viene creato un array contenente i dati di queste persone:
+	
+	- Nome: Fabio Cortinovis, Anno di Nascita: 1993, Impiego: Sviluppatore
+	- Nome: Pippo Pluto, Anno di Nascita: 1980, Impiego: Comico
+	- Nome: Paolo Bitta, Anno di Nascita: 1965, Impiego: Addetto vendite
+	
+	Fare un ciclo che scriva a video i nomi e i ruoli delle persone presenti nell'array.
+	
+	
+	Non so se hai modo di testare il php su qualche ambiente sul tuo pc, eventualmente va bene anche il codice non testato, è l'idea del codice che mi interessa.
+	
+	
+5 - Date le due tabelle seguenti:
+	TblPersone
+	  id_persona (int, primary key)
+	  nome (varchar)
+	  cognome (varchar)
+	  
+	TblTitoliStudio
+	  id_titolo_studio (int, primary key)
+	  id_persona (int, foreign key)
+	  titolo_studio (varchar)
+	  
+	  
+	Scrivere il codice SQL per eseguire la join fra le due tabelle
